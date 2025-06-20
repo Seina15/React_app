@@ -5,6 +5,7 @@ import Modal from '@mui/material/Modal';
 import "./DetailProject.css"
 
 
+
 export function DetailProject({ open, onClose, item }) {
   if (!item) return null;
 
